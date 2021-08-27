@@ -1,0 +1,10 @@
+{
+  "name": "spakit-project",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "cd packages/spakit && yarn build"
+  }
+}
